@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Web Developer Portfolio</title>
     <link rel="stylesheet" href="portfolio.css" />
+    <script src="https://kit.fontawesome.com/d0413ff902.js" crossorigin="anonymous"></script>
   </head>
   <body>
     <header class="header">
@@ -27,8 +28,8 @@
             clean and creative code. From dynamic e-commerce to personal blogs,
             I bring ideas to life. Let's create something amazing together!
           </p>
-          <button class="btn-primary">Download CV</button>
-          <button class="btn-primary">Contact</button>
+          <button class="btn-primary"><i class="fa-solid fa-download"></i> Download CV</button>
+          <button class="btn-primary"><i class="fa-solid fa-phone"></i> Contact</button>
         </div>
         <img class="profile-picture" src="images/fatin.png" alt="" />
       </div>
@@ -142,9 +143,33 @@
           </div>
         </section>
         <section class="main-bt">
-          <button class="main-btn">Downlode CV</button>
+          <button class="main-btn"><i class="fa-solid fa-download"></i> Downlode CV</button>
         </section>
     </main>
-    <footer></footer>
+
+
+    <footer>
+      <div class="container">
+        <div class="col">
+          <div class="col-title">Lets Connect</div>
+          <p class="col-description">Please fill out the form on this section to contact with me or call between 9:00 A.M and 8.00 P.M ET, Monday through Friday.</p>
+          <div class="icon">
+            <img src="images/icons/facebook.png" alt="">
+            <img src="images/icons/insta.png" alt="">
+            <img src="images/icons/twitter.png" alt="">
+          </div>
+        </div>
+        <div class="col">
+          <div class="col-title">Let’s Message me</div>
+          <input placeholder="Your name" type="text">
+          <br>
+          <input placeholder="Your mail" type="email">
+          <br>
+          <textarea placeholder="Message" name="" id="" cols="30" rows="10"></textarea>
+          <br>
+          <button class="main-btn">Submit</button>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
